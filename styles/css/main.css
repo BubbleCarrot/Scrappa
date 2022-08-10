@@ -1,0 +1,255 @@
+/*=====================
+Global
+=======================*/
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgba(240, 240, 240, 0.4);
+  color: #FF9046;
+}
+
+.body-wrap {
+  width: 1440px;
+  margin: 0 auto;
+  box-shadow: 0 0 20px #000;
+}
+
+a {
+  text-decoration: none;
+  color: #FF9046;
+}
+
+.app-links {
+  display: flex;
+}
+.app-links li {
+  padding: 0 20px;
+}
+.app-links img {
+  width: 150px;
+  height: 50px;
+}
+
+/*=====================
+Header
+=======================*/
+.header {
+  background: #D0E8C0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 75px;
+}
+
+.h-logo {
+  height: 60px;
+  width: auto;
+}
+
+.gn ul {
+  display: flex;
+}
+.gn ul li {
+  padding: 0 15px;
+}
+.gn ul li:nth-child(1) {
+  border-right: 2px solid #FF9046;
+}
+
+/*=====================
+Main
+=======================*/
+/*=====================
+Banner
+=======================*/
+.banner {
+  background-image: url(../../images/banner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.banner .content-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background: rgba(255, 255, 255, 0.9);
+  width: 660px;
+  height: 909px;
+}
+
+h1 {
+  font-size: 60px;
+  max-width: 353px;
+}
+
+/*=====================
+Features
+=======================*/
+.features {
+  height: 809px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.features h2 {
+  font-size: 50px;
+  text-align: center;
+}
+.features ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.features ul li {
+  height: 472px;
+  width: 292px;
+  background-color: rgba(255, 174, 161, 0.4);
+  border-radius: 15px;
+  overflow: hidden;
+}
+.features ul .features-1 {
+  background-image: url(../../images/feature-1.jpg);
+  background-position: bottom;
+}
+.features ul .features-2 {
+  background-image: url(../../images/feature-2.jpg);
+}
+.features ul .features-3 {
+  background-image: url(../../images/feature-3.jpg);
+}
+.features ul .features-4 {
+  background-image: url(../../images/feature-4.jpg);
+  background-position: center;
+}
+.features ul .features-img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50%;
+}
+.features ul p {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  color: #3E563E;
+  padding-top: 45px;
+  font-weight: 400;
+  max-width: 250px;
+}
+
+/*=====================
+CTA
+=======================*/
+.cta {
+  background-image: url(../../images/banner-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 909px;
+  display: flex;
+  align-items: flex-end;
+}
+.cta .content-wrap {
+  background: rgba(255, 255, 255, 0.9);
+  height: 331px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+.cta h2 {
+  font-size: 60px;
+  max-width: 475px;
+}
+
+/*=====================
+Facts
+=======================*/
+.facts {
+  display: flex;
+  height: 909px;
+  width: 100%;
+}
+.facts .bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.facts .facts-wrap {
+  background-image: url(../../images/fact-1.jpg);
+  width: 50%;
+}
+.facts .facts-wrap:hover .overlay {
+  opacity: 1;
+}
+.facts .img-2 {
+  background-image: url(../../images/fact-2.jpg);
+}
+.facts .overlay {
+  background: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+.facts .bg h2, .facts .bg h3 {
+  font-size: 70px;
+  margin-bottom: 80px;
+}
+.facts .bg p {
+  font-size: 50px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+/*=====================
+Footer
+=======================*/
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 488px;
+  background: #D0E8C0;
+  padding: 0 85px;
+}
+footer .fn {
+  display: flex;
+}
+footer .fn .list-wrap {
+  margin-right: 120px;
+  width: 200px;
+}
+footer .fn p {
+  font-size: 20px;
+  font-weight: 700;
+  color: #3E563E;
+  margin-bottom: 25px;
+}
+footer .fn li {
+  margin-bottom: 25px;
+}
+footer .links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .links .f-logo {
+  height: 110px;
+  width: auto;
+}
+footer .links .sm {
+  display: flex;
+}
+footer .links .sm li {
+  margin: 0 5px;
+}
+footer .links .sm img {
+  height: 44px;
+  width: auto;
+}
+
+/*# sourceMappingURL=main.css.map */
